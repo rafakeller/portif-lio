@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 export interface VariantProps {
-  variant: keyof typeof colorsVariants;
+  variant: keyof typeof colorsVariants | boolean;
 }
 
 export const colorsVariants = {
@@ -11,6 +11,7 @@ export const colorsVariants = {
   terceary: '#D5ADA0',
   text: '#FFFFFF',
   subtext: '#E6E6E6',
+  transparent: '',
 };
 
 export const fontFamilyVariant = {
