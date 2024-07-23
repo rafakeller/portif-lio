@@ -7,7 +7,7 @@ export const Contato = () => {
       <TitleProjetos variant="text">&lt;contato&gt;</TitleProjetos>
       <SocialConteiner>
         <p>
-          Sinta-se à vontade para enviar me e-mail:
+          Sinta-se à vontade para enviar um e-mail:
           <a href=""> rafaela.keller.rk@gmail.com</a>{' '}
         </p>
         <p>Me siga e me mande uma messagem nas minhas redes socias! </p>

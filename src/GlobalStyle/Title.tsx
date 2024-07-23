@@ -9,6 +9,7 @@ export const MainTitleBase = styled.h1`
 export const MainTitle = styled(MainTitleBase)`
   font-size: 40px;
   z-index: 1;
+
   @media (max-width: 768px) {
     font-size: 30px;
   }
