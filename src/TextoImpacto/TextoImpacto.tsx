@@ -23,7 +23,7 @@ export const TextoImpacto = () => {
     visible: (i: number) => ({
       x: 0,
       opacity: 1,
-      transition: { delay: i * 1, duration: 3 },
+      transition: { delay: i * 1, duration: 2 },
     }),
   };
 

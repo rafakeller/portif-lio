@@ -25,3 +25,11 @@ export const TextoResumo = styled.div`
     }
   }
 `;
+
+export const ContentResumo = styled.div`
+  display: flex;
+  align-itens: center;
+  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+`;
