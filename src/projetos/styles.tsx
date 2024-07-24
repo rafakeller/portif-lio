@@ -6,7 +6,7 @@ export const Conteiner = styled.section`
   display: flex;
   align-itens: left;
   flex-direction: column;
-  gap: 40px;
+  gap: 60px;
   width: 85%;
   margin: 60px auto;
 

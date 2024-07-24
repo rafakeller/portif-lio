@@ -5,8 +5,8 @@ export const ConteinerAnimation = styled.div`
   perspective: 800px;
   width: 200px;
   height: 100px;
-  top: 45%;
-  left: 65%;
+  top: 55%;
+  left: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,8 +14,8 @@ export const ConteinerAnimation = styled.div`
 `;
 
 export const Triangle = styled.div`
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   transform-style: preserve-3d;
 `;
 

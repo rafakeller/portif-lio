@@ -6,7 +6,7 @@ import { Animation } from './components/Animation/Animation';
 export const Resumo = () => {
   return (
     <Conteiner id="sobreMim">
-      <TitleProjetos variant="primary">&lt;resumo&gt;</TitleProjetos>
+      <TitleProjetos variant="primary">&lt;sobre mim&gt;</TitleProjetos>
       <ContentResumo>
         <TextoResumo>
           <p>
@@ -43,7 +43,7 @@ export const Resumo = () => {
         <Animation />
       </ContentResumo>
 
-      <TitleProjetos variant="primary">&lt;/resumo&gt;</TitleProjetos>
+      <TitleProjetos variant="primary">&lt;/sobre mim&gt;</TitleProjetos>
     </Conteiner>
   );
 };
