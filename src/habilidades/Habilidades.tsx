@@ -3,7 +3,7 @@ import { HabilidadesConteiner, SoftSkillsConteiner } from './styles';
 
 export const Habilidades = () => {
   return (
-    <Conteiner>
+    <Conteiner id="habilidades">
       <TitleProjetos variant="secondary">&lt;habilidades&gt;</TitleProjetos>
       <div>
         <HabilidadesConteiner>

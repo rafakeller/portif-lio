@@ -6,7 +6,7 @@ export const ConteinerAnimation = styled.div`
   width: 200px;
   height: 100px;
   top: 45%;
-  left: 75%;
+  left: 65%;
   display: flex;
   justify-content: center;
   align-items: center;

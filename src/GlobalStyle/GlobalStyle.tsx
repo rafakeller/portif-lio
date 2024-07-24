@@ -1,7 +1,11 @@
 import { createGlobalStyle } from 'styled-components';
 
 export interface VariantProps {
-  variant: keyof typeof colorsVariants | boolean;
+  variant: keyof typeof colorsVariants;
+}
+
+export interface VariantBooleanProps {
+  variant: boolean | undefined;
 }
 
 export const colorsVariants = {

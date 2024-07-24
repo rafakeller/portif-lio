@@ -11,7 +11,6 @@ export const Projetos = () => {
 
       const transformConteiner = Array.from(containers).map((container) => {
         const distanceConteinerTop = container.getBoundingClientRect().top;
-        console.log(windowHeight);
         return distanceConteinerTop < windowHeight ? -100 : 0;
       });
 
@@ -29,7 +28,7 @@ export const Projetos = () => {
   }, []);
 
   return (
-    <Conteiner>
+    <Conteiner id="projetos">
       <TitleProjetos variant="primary">&lt;projetos&gt;</TitleProjetos>
       <ul>
         {[

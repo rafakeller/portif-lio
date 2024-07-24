@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const BannerConteiner = styled.div`
+export const BannerConteiner = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;

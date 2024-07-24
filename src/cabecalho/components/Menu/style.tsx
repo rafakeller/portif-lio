@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import {
   colorsVariants,
   fontFamilyVariant,
-  VariantProps,
+  VariantBooleanProps,
 } from '../../../GlobalStyle/GlobalStyle';
 
-export const MenuContainer = styled.nav<VariantProps>`
+export const MenuContainer = styled.nav<VariantBooleanProps>`
   position: fixed;
   width: 95%;
   height: 100%;

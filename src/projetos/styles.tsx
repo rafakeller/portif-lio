@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { colorsVariants, VariantProps } from '../GlobalStyle/GlobalStyle';
 import { VariantPropsTransform } from './types/TransformProps';
 
-export const Conteiner = styled.div`
+export const Conteiner = styled.section`
   display: flex;
   align-itens: left;
   flex-direction: column;

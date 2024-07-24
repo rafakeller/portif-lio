@@ -1,17 +1,14 @@
-import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { MenuHamburguerContainer } from './style';
 
-export const MenuHamburguer = ({ toggleMenu }: { toggleMenu: () => void }) => {
-  const [isOpen, setIsOpen] = useState(false);
+export type ToggleMenuProps = {
+  toggle: () => void;
+  isOpen: boolean;
+};
 
-  const handleToggle = () => {
-    setIsOpen(!isOpen);
-    toggleMenu();
-  };
-
+export const MenuHamburguer = ({ toggle, isOpen }: ToggleMenuProps) => {
   return (
-    <MenuHamburguerContainer onClick={handleToggle}>
+    <MenuHamburguerContainer onClick={toggle}>
       <motion.span
         animate={{ rotate: isOpen ? 45 : 0, y: isOpen ? 8 : 0 }}
         transition={{ duration: 0.3 }}

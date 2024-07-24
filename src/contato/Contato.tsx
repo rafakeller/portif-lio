@@ -3,7 +3,7 @@ import { SocialConteiner } from './style';
 
 export const Contato = () => {
   return (
-    <Conteiner>
+    <Conteiner id="contato">
       <TitleProjetos variant="text">&lt;contato&gt;</TitleProjetos>
       <SocialConteiner>
         <p>
