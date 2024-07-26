@@ -1,23 +1,23 @@
 import styled from 'styled-components';
 
 export const BannerConteiner = styled.section`
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
   flex-direction: column;
-  min-height: 75vh;
+  justify-content: center;
   margin: 0 auto;
-  width: 1200px;
   max-width: 75%;
-  vertical-align: baseline;
+  min-height: 75vh;
   position: relative;
+  vertical-align: baseline;
+  width: 1200px;
 
   &::before {
     content: url(public/triangulo.svg);
-    position: absolute;
-    z-index: -1;
     object-fit: cover;
+    position: absolute;
     top: 200px;
+    z-index: -1;
   }
 
   @media (max-width: 768px) {

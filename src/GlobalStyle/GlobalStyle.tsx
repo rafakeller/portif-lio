@@ -1,32 +1,68 @@
 import { createGlobalStyle } from 'styled-components';
-
-export interface VariantProps {
-  variant: keyof typeof colorsVariants;
-}
-
-export interface VariantBooleanProps {
-  variant: boolean | undefined;
-}
-
-export const colorsVariants = {
-  background: '#0C0C0C',
-  primary: '#C22085',
-  secondary: '#2D9687',
-  terceary: '#D5ADA0',
-  text: '#FFFFFF',
-  subtext: '#E6E6E6',
-  transparent: '',
-};
-
-export const fontFamilyVariant = {
-  primary: '"Hind Siliguri", sans-serif',
-  secondary: '"Inconsolata", monospace',
-};
+import { colorsVariants, fontFamilyVariant } from './constants/variants';
 
 export const GlobalStyle = createGlobalStyle`
-body{
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+  line-height: 1;
   background-color:${colorsVariants.background};
   font-family:${fontFamilyVariant.secondary};
 }
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-family: "Hind Siliguri", sans-serif;
+}
+p{
+    color:white;
+}
+
 
 `;
